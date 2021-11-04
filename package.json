@@ -1,0 +1,22 @@
+{
+  "name": "Grid-work",
+  "version": "1.0.0",
+  "description": "Figuring out how to implement bootstrap",
+  "main": "src/index.html",
+  "scripts": {
+    "sync": "browser-sync start -s \"src\" -f \"src/**/*.*\"",
+    "start": "npm run sync",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.7"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.10.2",
+    "bootstrap": "^3.4.1",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
+  }
+}
